@@ -48,9 +48,11 @@ let Button = ({ text }) => {
     paymentObj.open();
   };
   return (
-    <button className={styles.buttonComponent} onClick={displayRazorpay} id="prepeve_cta" class="cta_btn">
-      {text}
-    </button>
+    <span id="cta_btn" class="cta_prepeve">
+      <button className={styles.buttonComponent} onClick={displayRazorpay}>
+        {text}
+      </button>
+    </span>
   );
 };
 
