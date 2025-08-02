@@ -19,6 +19,10 @@ body {
   object-fit: cover;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --primary-color-black: #24262d;
   --primary-color-golden: #de9e53;
