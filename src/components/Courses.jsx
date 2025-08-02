@@ -78,8 +78,8 @@ import { useState, useEffect, useRef } from "react";
 
 const courses = [
   {
-    title: "IELTS Writing Task 2: Essay Writing Strategies (Dec 2024)",
-    date: "2024-12-16",
+    title: `IELTS Writing Task 2: Essay Writing Strategies (Dec ${new Date().getFullYear()})`,
+    date: `${new Date().getFullYear()}-12-16`,
     time: "20:00 (IST)",
     language: "English",
     instructor: "John Doe",
@@ -88,8 +88,8 @@ const courses = [
       "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msKXW.img", // Correct path
   },
   {
-    title: "IELTS Reading: Techniques for Skimming and Scanning (Dec 2024)",
-    date: "2024-12-23",
+    title: `IELTS Reading: Techniques for Skimming and Scanning (Dec ${new Date().getFullYear()})`,
+    date: `${new Date().getFullYear()}-12-23`,
     time: "20:00 (IST)",
     language: "English",
     instructor: "John Doe",
@@ -97,8 +97,8 @@ const courses = [
     imageUrl: "/assets/ielts-reading.jpg", // Correct path
   },
   {
-    title: "IELTS Listening Test Day Tips (Dec 2024)",
-    date: "2024-12-30",
+    title: `IELTS Listening Test Day Tips (Dec ${new Date().getFullYear()})`,
+    date: `${new Date().getFullYear()}-12-30`,
     time: "20:00 (IST)",
     language: "English",
     instructor: "John Doe",
